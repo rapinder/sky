@@ -1,7 +1,8 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: singh
- * Date: 11/15/2018
- * Time: 12:31 PM
- */
+//Load Config
+require_once 'config/config.php';
+
+// Autoload Core Libraries
+spl_autoload_register(function ($className) {
+    require_once 'lib/' . $className . '.php';
+});
