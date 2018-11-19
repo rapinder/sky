@@ -8,4 +8,4 @@
     <title><?php echo SITENAME; ?></title>
     <link rel="stylesheet" href="<?php echo URLROOT;?>/css/style.css">
 </head>
-<body>
+<body style="background-image: url('img/background.jpg'); background-size: cover;">
